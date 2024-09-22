@@ -79,8 +79,11 @@
 
     /* next section start  */
     .majistic_section{
-        margin: 40px 0 45px 10px;
+        margin: 0 10px;
 
+    }
+    .majistic_section{
+        margin: 40px 0;
     }
     .majistic_section .container .main_majistic {
         display: block;
@@ -148,12 +151,14 @@
 
 
     .from_section .container .main_from_blog .box-1 {
-        margin-bottom: 50px;
+        margin-bottom: 35px;
         border: 1px solid gray;
         border-radius: 10px;
         padding: 10px;
     }
-
+    .from_section .container .main_from_blog .box-1:last-child{
+        margin-bottom: 0;
+    }
     .from_section .container .main_from_blog .box-1 .img img {
         border-radius: 10px;
     }
@@ -600,6 +605,7 @@
     /* Angel section  */
     .angel_section .container .main_angel {
         display: block;
+        margin: 0 10px;
 
     }
 
@@ -610,6 +616,7 @@
     /* questions section  */
     .design_section2 .design2 .container .main_design2 {
         display: block;
+        margin: 0 10px;
     }
 
     .design_section2 .design2 .container .main_design2 .box-1 {
@@ -704,6 +711,7 @@
 @media only screen and (max-width: 767px) {
     .main_contact_section .container .contact_form {
         display: block;
+        margin: 0 10px;
     }
 
     .main_contact_section .container .contact_form .right_side {
@@ -738,6 +746,9 @@
 
 /* Articale section start  */
 @media only screen and (max-width: 767px) {
+    .main_section {
+        margin: 40px 10px;
+    }
     .main_section .container .main_article {
         display: block;
     }
@@ -753,5 +764,8 @@
     .main_section .container .main_article .left_side .img-2 img {
         height: 250px;
 
+    }
+    .main_section .container .main_article .left_side .item-1 .hading h3::after{
+        width: 47%;
     }
 }
