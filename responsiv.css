@@ -78,6 +78,10 @@
     }
 
     /* next section start  */
+    .majistic_section{
+        margin: 40px 0 45px 10px;
+
+    }
     .majistic_section .container .main_majistic {
         display: block;
     }
@@ -97,8 +101,10 @@
     }
 
     /* design section start  */
+
     .design_section .design .container .main_design {
         display: block;
+        margin: 0 10px;
     }
 
     .design_section .design .container .main_design .box-1 {
@@ -112,6 +118,7 @@
     /* gallary section start  */
     .main_gallary .container .gallary {
         display: block;
+        margin: 0 20px;
     }
 
     .main_gallary .container .gallary .img {
@@ -122,12 +129,15 @@
     .main_gallary .container .gallary .img {
         border-radius: 10px;
     }
-
+    .main_gallary .container .gallary .img 
     /* according section  */
     .according_section {
         height: 654px;
         padding: 0 10px;
 
+    }
+    .according_section .container .main_according {
+        margin: 0 10px;
     }
 
     /* form secction  */
@@ -152,6 +162,7 @@
     .subscribe_section .container .content_subscribes {
         display: block;
         text-align: center;
+        margin: 0 10px;
     }
 
     .subscribe_section .container .content_subscribes h2 {
@@ -180,9 +191,8 @@
         grid-template-columns: 1fr 1fr;
         gap: 31px;
     }
-
-    p {
-        /* text-align: justify; */
+    .main_footer .container .footer_start{
+        margin: 0 10px;
     }
 
     .subscribe_section .container .content_subscribes .input button {
